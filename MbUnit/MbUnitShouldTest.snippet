@@ -1,0 +1,29 @@
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2008/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        MbUnitShouldTest Snippet
+      </Title>
+      <Shortcut>
+        should
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>TestName</ID>
+          <ToolTip>Name of the test.</ToolTip>
+          <Default>do_something</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[[Test]
+                    public void should_$TestName$()
+                    {
+                    }
+                ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
